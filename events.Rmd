@@ -1,0 +1,14 @@
+---
+title: ""
+---
+
+## Upcoming events
+
+Date | Speakers | Venue
+---- | -------- | -----
+<b> October xth, 7pm </b>  | Kaspar Martens - Talk title | Somewhere
+&nbsp; | KC - talk | &nbsp;
+&nbsp; | JZ - talk | &nbsp;
+
+
+## Past events

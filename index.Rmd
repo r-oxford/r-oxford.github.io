@@ -1,0 +1,17 @@
+---
+title: "R user group Oxford"
+---
+
+Welcome to the home of the R user group Oxford. Here you'll find information about upcoming talks and events. To get in touch please check out the [about](about.html) section.
+
+## Upcoming events
+
+Date | Speakers | Venue
+---- | -------- | -----
+<b> October xth, 7pm </b>  | Kaspar Martens - Talk title | Somewhere
+&nbsp; | KC - talk | &nbsp;
+&nbsp; | JZ - talk | &nbsp;
+
+
+
+## Past events

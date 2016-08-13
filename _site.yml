@@ -1,0 +1,14 @@
+name: "r-oxford"
+output_dir: "."
+navbar:
+  title: "R-Oxford"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Events"
+      href: events.html
+    - text: "About"
+      href: about.html
+output:
+  html_document:
+    theme: cosmo
