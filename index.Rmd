@@ -2,6 +2,10 @@
 title: "R user group Oxford"
 ---
 
+<div class="head_logo">
+ {% include logo.html %}
+</div>
+
 Welcome to the home of the R user group Oxford. Here you'll find information about upcoming talks and events. To get in touch please check out the [about](about.html) section.
 
 ## Upcoming events
