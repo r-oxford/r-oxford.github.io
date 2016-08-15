@@ -43,8 +43,8 @@ var nodes = d3.range(n).map(function(j) {
 var  root = nodes[0],
     color = d3.scale.category10();
 
-root.px = 0;
-root.py = 0;
+root.px = width;
+root.py = height;
 root.radius = 0;
 root.fixed = true;
 
