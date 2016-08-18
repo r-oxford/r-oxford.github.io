@@ -12,11 +12,12 @@ Welcome to the home of the R user group Oxford. Here you'll find information abo
 
 ## Upcoming events
 
-Date | Speakers | Venue
----- | -------- | -----
-<b> October xth, 7pm </b>  | Kaspar Martens - Talk title | Somewhere
-&nbsp; | KC - talk | &nbsp;
-&nbsp; | JZ - talk | &nbsp;
+Date        |      Speakers     | Venue
+------------- | --------------------------- | ----------
+<b> October 4th, 7pm </b>  | [Louis Aslett](https://www.stats.ox.ac.uk/people/research_staff/louis_aslett), University of Oxford | tbc
+&nbsp; | &nbsp; | &nbsp;
+
+
 
 
 
