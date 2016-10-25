@@ -12,10 +12,10 @@ Welcome to the home of the R user group Oxford. Here you'll find information abo
 
 ## Upcoming events
 
-Date        |      Speakers     | Venue
-------------- | --------------------------- | ----------
-<b> October 4th, 7pm </b>  | [Louis Aslett](https://www.stats.ox.ac.uk/people/research_staff/louis_aslett), University of Oxford | tbc
-&nbsp; | &nbsp; | &nbsp;
+Date and time    |      Speakers     |   Title   |  Venue
+----------- | ------------ | ---------------------- | ----------
+<b> November 10th, 6pm </b>  | [Louis Aslett](http://www.louisaslett.com), University of Oxford | **Cheap and cheerful massively parallel batch R processing on EC2**  | St John's College
+&nbsp; | &nbsp; | &nbsp; | &nbsp;
 
 
 
