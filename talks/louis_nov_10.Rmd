@@ -1,0 +1,17 @@
+---
+title: "R user group Oxford"
+
+output:
+  html_document
+---
+
+
+## Cheap and cheerful massively parallel batch R processing on EC2
+
+###  Louis Aslett
+
+
+The Amazon EC2 service provides a scalable computing resource enabling clusters of compute power to be provisioned and destroyed quickly making it an economical option when large compute resources are only needed in bursts.  In particular, a feature called spot instances can make using EC2 extremely inexpensive, although at the expense unpredictably delayed launch and/or early termination of your instances.
+
+This talk will first give a brief background to EC2 and spot instances for anyone who is unfamiliar with them, and then preview some forthcoming changes to the Amazon EC2 RStudio AMIs maintained by Louis Aslett (http://www.louisaslett.com/RStudio_AMI/).  These changes are geared toward making it easy to leverage the cheapest spot instances to process large quantities of R batch jobs in parallel, with robustness to delayed launch and early termination of such instances, enabling cost savings of up to 90%.
+

@@ -14,7 +14,7 @@ Welcome to the home of the R user group Oxford. Here you'll find information abo
 
 Date and time    |      Speakers     |   Title   |  Venue
 ----------- | ------------ | ---------------------- | ----------
-<b> November 10th, 6pm </b>  | [Louis Aslett](http://www.louisaslett.com), University of Oxford | **Cheap and cheerful massively parallel batch R processing on EC2**  | [Larkin Room, St John's College](https://www.sjc.ox.ac.uk/documents/55/SJC-Map-Apr2015web.pdf.download.pdf)
+<b> November 10th, 6pm </b>  | [Louis Aslett](http://www.louisaslett.com), University of Oxford | [**Cheap and cheerful massively parallel batch R processing on EC2**](talks/louis_nov_10.html)  | [Larkin Room, St John's College](https://www.sjc.ox.ac.uk/documents/55/SJC-Map-Apr2015web.pdf.download.pdf)
 &nbsp; | &nbsp; | &nbsp; | &nbsp;
 
 
