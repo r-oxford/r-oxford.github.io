@@ -4,6 +4,11 @@ title: "About"
 
 R users is currently in the process of being set up. We plan to hold informal talks once a month. To get in touch please contact one of the organisers below.
 
+```{r, echo=FALSE}
+htmltools::includeHTML('twitter.html')
+```
+
+
 ## OrganiseRs
 
 ### Kieran Campbell
@@ -13,7 +18,7 @@ R users is currently in the process of being set up. We plan to hold informal ta
 
 DPhil student, University of Oxford. [email](mailto:kieran.campbell@sjc.ox.ac.uk)
 
-### Kaspar Martens
+### Kaspar Märtens
 
 [\@kasparmartens](http://www.twitter.com/kasparmartens)
 
