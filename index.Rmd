@@ -10,7 +10,8 @@ output:
 
 Welcome to the home of the R user group Oxford. Here you'll find information about upcoming talks and events. To get in touch please check out the [about](about.html) section.
 
-Events are free and open to all. We appreciate it if you sign up to let us know about numbers attending.
+Events are free and open to all. We appreciate it if you [sign up](https://goo.gl/forms/YoDxCHKw7SIyBGSM2) to let us know about numbers attending.
+
 
 ## Upcoming events
 
