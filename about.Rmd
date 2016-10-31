@@ -4,10 +4,7 @@ title: "About"
 
 R users is currently in the process of being set up. We plan to hold informal talks once a month. To get in touch please contact one of the organisers below.
 
-```{r, echo=FALSE}
-htmltools::includeHTML('twitter.html')
-```
-
+To keep informed about future events, follow us on [twitter](https://twitter.com/rusersoxford) and [facebook](https://www.facebook.com/rusersoxford/).
 
 ## OrganiseRs
 
