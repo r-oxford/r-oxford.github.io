@@ -27,6 +27,8 @@ Date and time    |      Speakers     |   Title   |  Venue |
 
 ## Follow us 
 
+To keep informed about future events, follow us on [twitter](https://twitter.com/rusersoxford) and [facebook](https://www.facebook.com/rusersoxford/).
+
 ```{r, echo=FALSE}
 htmltools::includeHTML('twitter.html')
 htmltools::includeHTML('facebook.html')
