@@ -19,12 +19,11 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-1.1/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-1.1/highlight.js"></script>
 
 <style type="text/css">code{white-space: pre;}</style>
-<link rel="stylesheet"
-      href="site_libs/highlight/default.css"
-      type="text/css" />
-<script src="site_libs/highlight/highlight.js"></script>
 <style type="text/css">
   pre:not([class]) {
     background-color: white;
@@ -94,6 +93,7 @@ button.code-folding-btn:focus {
 }
 </style>
 
+
 <style type="text/css">
 /* padding for bootstrap navbar */
 body {
@@ -150,7 +150,6 @@ $(document).ready(function () {
 <div class="container-fluid main-container">
 
 <!-- tabsets -->
-<script src="site_libs/navigation-1.1/tabsets.js"></script>
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
@@ -203,6 +202,45 @@ $(document).ready(function () {
 
 <div id="upcoming-events" class="section level2">
 <h2>Upcoming events</h2>
+<table style="width:96%;">
+<colgroup>
+<col width="16%" />
+<col width="18%" />
+<col width="31%" />
+<col width="15%" />
+<col width="13%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Date and time</th>
+<th>Speakers</th>
+<th>Title</th>
+<th>Venue</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><b> April 5th, 5.30pm </b></td>
+<td><a href="https://twitter.com/martinjhnhadley">Martin John Hadley</a> and <a href="https://twitter.com/kasparmartens">Kaspar Märtens</a>, University of Oxford</td>
+<td>Interactive graphics with Shiny &amp; R, and TBC</td>
+<td><a href="https://www.sjc.ox.ac.uk/documents/55/SJC-Map-Apr2015web.pdf.download.pdf">Larkin Room, St John’s College</a></td>
+<td><a href="https://goo.gl/forms/8V6gJeE21ELiBteA2">Sign up form</a></td>
+</tr>
+<tr class="even">
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+</tbody>
+</table>
+<p><strong>Interactive graphics with Shiny &amp; R</strong></p>
+<p>R is well known as a powerful tool for data analysis (or even “data science”) but fewer users are aware of how R can be used for publishing beautiful interactive charts, maps and network diagrams using htmlwidget libraries. Further, through the use of the Shiny library, it’s possible to create responsive, interactive web applications that provide exploratory interfaces for research datasets. This talk introduces the basics of these technologies and how the Interactive Data Network (<a href="http://www.idn.it.ox.ac.uk" class="uri">http://www.idn.it.ox.ac.uk</a>) in IT Services provides support and hosting for shiny web apps that expose Open Access datasets.</p>
+</div>
+<div id="past-events" class="section level2">
+<h2>Past events</h2>
 <table style="width:82%;">
 <colgroup>
 <col width="16%" />
@@ -212,33 +250,30 @@ $(document).ready(function () {
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">Date and time</th>
-<th align="left">Speakers</th>
-<th align="left">Title</th>
-<th align="left">Venue</th>
+<th>Date and time</th>
+<th>Speakers</th>
+<th>Title</th>
+<th>Venue</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><b> November 10th, 6pm </b></td>
-<td align="left"><a href="http://www.louisaslett.com">Louis Aslett</a>, University of Oxford</td>
-<td align="left"><strong>Cheap and cheerful massively parallel batch R processing on EC2</strong></td>
-<td align="left">St John’s College</td>
+<td><b> November 10th, 6pm </b></td>
+<td><a href="http://www.louisaslett.com">Louis Aslett</a>, University of Oxford</td>
+<td><strong>Cheap and cheerful massively parallel batch R processing on EC2</strong></td>
+<td>St John’s College</td>
 </tr>
 <tr class="even">
-<td align="left"> </td>
-<td align="left"> </td>
-<td align="left"> </td>
-<td align="left"> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
 </tr>
 </tbody>
 </table>
 <p><strong>Cheap and cheerful massively parallel batch R processing on EC2</strong></p>
 <p>The Amazon EC2 service provides a scalable computing resource enabling clusters of compute power to be provisioned and destroyed quickly making it an economical option when large compute resources are only needed in bursts. In particular, a feature called spot instances can make using EC2 extremely inexpensive, although at the expense unpredictably delayed launch and/or early termination of your instances.</p>
 <p>This talk will first give a brief background to EC2 and spot instances for anyone who is unfamiliar with them, and then preview some forthcoming changes to the Amazon EC2 RStudio AMIs maintained by Louis Aslett (<a href="http://www.louisaslett.com/RStudio_AMI/" class="uri">http://www.louisaslett.com/RStudio_AMI/</a>). These changes are geared toward making it easy to leverage the cheapest spot instances to process large quantities of R batch jobs in parallel, with robustness to delayed launch and early termination of such instances, enabling cost savings of up to 90%.</p>
-</div>
-<div id="past-events" class="section level2">
-<h2>Past events</h2>
 </div>
 
 
@@ -249,9 +284,13 @@ $(document).ready(function () {
 <script>
 
 // add bootstrap table styles to pandoc tables
-$(document).ready(function () {
+function bootstrapStylePandocTables() {
   $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
 });
+
 
 </script>
 

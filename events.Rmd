@@ -4,6 +4,20 @@ title: ""
 
 ## Upcoming events
 
+Date and time    |      Speakers     |   Title   |  Venue | 
+----------- | ------------ | ---------------------- | ---------- | ---------
+<b> April 5th, 5.30pm </b>  | [Martin John Hadley](https://twitter.com/martinjhnhadley) and [Kaspar Märtens](https://twitter.com/kasparmartens), University of Oxford | Interactive graphics with Shiny & R, and TBC | [Larkin Room, St John's College](https://www.sjc.ox.ac.uk/documents/55/SJC-Map-Apr2015web.pdf.download.pdf) | [Sign up form](https://goo.gl/forms/8V6gJeE21ELiBteA2)
+&nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;
+
+**Interactive graphics with Shiny & R**
+
+R is well known as a powerful tool for data analysis (or even "data science") but fewer users are aware of how R can be used for publishing beautiful interactive charts, maps and network diagrams using htmlwidget libraries. Further, through the use of the Shiny library, it's possible to create responsive, interactive web applications that provide exploratory interfaces for research datasets.
+This talk introduces the basics of these technologies and how the Interactive Data Network (http://www.idn.it.ox.ac.uk) in IT Services provides support and hosting for shiny web apps that expose Open Access datasets.
+
+
+
+## Past events
+
 Date and time    |      Speakers     |   Title   |  Venue
 ----------- | ------------ | ---------------------- | ----------
 <b> November 10th, 6pm </b>  | [Louis Aslett](http://www.louisaslett.com), University of Oxford | **Cheap and cheerful massively parallel batch R processing on EC2**  | St John's College
@@ -15,4 +29,3 @@ The Amazon EC2 service provides a scalable computing resource enabling clusters 
 
 This talk will first give a brief background to EC2 and spot instances for anyone who is unfamiliar with them, and then preview some forthcoming changes to the Amazon EC2 RStudio AMIs maintained by Louis Aslett (http://www.louisaslett.com/RStudio_AMI/).  These changes are geared toward making it easy to leverage the cheapest spot instances to process large quantities of R batch jobs in parallel, with robustness to delayed launch and early termination of such instances, enabling cost savings of up to 90%.
 
-## Past events
