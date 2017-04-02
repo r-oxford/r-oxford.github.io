@@ -6,7 +6,7 @@ title: ""
 
 Date and time    |      Speakers     |   Title   |  Venue | 
 ----------- | ------------ | ---------------------- | ---------- | ---------
-<b> April 5th, 5.30pm </b>  | [Martin John Hadley](https://twitter.com/martinjhnhadley) and [Kaspar Märtens](https://twitter.com/kasparmartens), University of Oxford | **Interactive graphics with Shiny & R**, and **R Markdown and R Notebooks** | [Larkin Room, St John's College](https://www.sjc.ox.ac.uk/documents/55/SJC-Map-Apr2015web.pdf.download.pdf) | [Sign up form](https://goo.gl/forms/8V6gJeE21ELiBteA2)
+<b> April 5th, 5.30pm </b>  | [Martin John Hadley](https://twitter.com/martinjhnhadley) and [Kaspar Märtens](https://twitter.com/kasparmartens), University of Oxford | **Interactive graphics with Shiny & R**, and <br> **R Markdown and R Notebooks** | [Larkin Room, St John's College](https://www.sjc.ox.ac.uk/documents/55/SJC-Map-Apr2015web.pdf.download.pdf) | [Sign up form](https://goo.gl/forms/8V6gJeE21ELiBteA2)
 &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;
 
 **Interactive graphics with Shiny & R**
