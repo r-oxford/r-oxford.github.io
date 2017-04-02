@@ -6,7 +6,7 @@ title: ""
 
 Date and time    |      Speakers     |   Title   |  Venue | 
 ----------- | ------------ | ---------------------- | ---------- | ---------
-<b> April 5th, 5.30pm </b>  | [Martin John Hadley](https://twitter.com/martinjhnhadley) and [Kaspar Märtens](https://twitter.com/kasparmartens), University of Oxford | Interactive graphics with Shiny & R, and TBC | [Larkin Room, St John's College](https://www.sjc.ox.ac.uk/documents/55/SJC-Map-Apr2015web.pdf.download.pdf) | [Sign up form](https://goo.gl/forms/8V6gJeE21ELiBteA2)
+<b> April 5th, 5.30pm </b>  | [Martin John Hadley](https://twitter.com/martinjhnhadley) and [Kaspar Märtens](https://twitter.com/kasparmartens), University of Oxford | **Interactive graphics with Shiny & R**, and **R Markdown and R Notebooks** | [Larkin Room, St John's College](https://www.sjc.ox.ac.uk/documents/55/SJC-Map-Apr2015web.pdf.download.pdf) | [Sign up form](https://goo.gl/forms/8V6gJeE21ELiBteA2)
 &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;
 
 **Interactive graphics with Shiny & R**
@@ -14,6 +14,9 @@ Date and time    |      Speakers     |   Title   |  Venue |
 R is well known as a powerful tool for data analysis (or even "data science") but fewer users are aware of how R can be used for publishing beautiful interactive charts, maps and network diagrams using htmlwidget libraries. Further, through the use of the Shiny library, it's possible to create responsive, interactive web applications that provide exploratory interfaces for research datasets.
 This talk introduces the basics of these technologies and how the Interactive Data Network (http://www.idn.it.ox.ac.uk) in IT Services provides support and hosting for shiny web apps that expose Open Access datasets.
 
+**R Markdown and R Notebooks**
+
+R Markdown documents provide a convenient way to create automatic reports and make your analysis fully reproducible. Recently, R Notebooks have been introduced, allowing code chunks to be executed independently and interactively. This short talk will cover the basics of R Notebooks and compare these to the standard R Markdown documents. 
 
 
 ## Past events
