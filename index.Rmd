@@ -18,7 +18,7 @@ Events are free and open to all. We appreciate it if you [sign up](https://goo.g
 
 Date and time    |      Speakers     |   Title   |  Venue | 
 ----------- | ------------ | ---------------------- | ---------- | ---------
-<b> May 18th, 5.30pm </b>  | Ella Kaye and Tim Lucas, University of Oxford | **Ranking items scalably with the Bradley-Terry model: An introduction to the BradleyTerryScalable package**, and <br> **Caret and zoon: machine learning, ecology and domain specific package systems.** | [Larkin Room, St John's College](https://www.sjc.ox.ac.uk/documents/55/SJC-Map-Apr2015web.pdf.download.pdf) | [Sign up form](https://goo.gl/forms/hUvrGzHmeqpIka3j2)
+<b> May 18th, 5.30pm </b>  | [Ella Kaye](http://www2.warwick.ac.uk/fac/sci/statistics/staff/research_students/kaye/) and Tim Lucas, University of Oxford | **Ranking items scalably with the Bradley-Terry model: An introduction to the BradleyTerryScalable package**, and <br> **Caret and zoon: machine learning, ecology and domain specific package systems.** | [Larkin Room, St John's College](https://www.sjc.ox.ac.uk/documents/55/SJC-Map-Apr2015web.pdf.download.pdf) | [Sign up form](https://goo.gl/forms/hUvrGzHmeqpIka3j2)
 &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;
 
 
@@ -34,6 +34,14 @@ Date and time    |      Speakers     |   Title   |  Venue |
 
 
 
+## Sponsors
+
+<div style="width:200px">
+![](Rconsortium_logo.png)
+</div>
+
+Oxford R user group is sponsored by the [R consortium](https://www.r-consortium.org/). 
+We follow the R Consortium and the R Community [Code of Conduct](https://wiki.r-consortium.org/view/R_Consortium_and_the_R_Community_Code_of_Conduct)
 
 
 ## Follow us 
@@ -45,3 +53,6 @@ htmltools::includeHTML('twitter.html')
 htmltools::includeHTML('facebook.html')
 
 ```
+
+
+
