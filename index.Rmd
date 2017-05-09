@@ -37,7 +37,7 @@ Date and time    |      Speakers     |   Title   |  Venue |
 ## Sponsors
 
 <div style="width:200px">
-![](Rconsortium_logo.png)
+![](RConsortium_logo.png)
 </div>
 
 Oxford R user group is sponsored by the [R consortium](https://www.r-consortium.org/). 
