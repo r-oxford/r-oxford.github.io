@@ -4,13 +4,16 @@ title: ""
 
 ## Upcoming events
 
+Please check [meetup.com/Oxford-R-User-Group](https://www.meetup.com/Oxford-R-User-Group/) for upcoming events.
+
+
+## Past events
+
 Date and time    |      Speakers     |   Title   |  Venue | 
 ----------- | ------------ | ---------------------- | ---------- | ---------
 <b> May 18th, 5.30pm </b>  | [Ella Kaye](http://www2.warwick.ac.uk/fac/sci/statistics/staff/research_students/kaye/) and Tim Lucas, University of Oxford | **Ranking items scalably with the Bradley-Terry model: An introduction to the BradleyTerryScalable package**, and <br> **Caret and zoon: machine learning, ecology and domain specific package systems.** | [Larkin Room, St John's College](https://www.sjc.ox.ac.uk/documents/55/SJC-Map-Apr2015web.pdf.download.pdf) | [Sign up form](https://goo.gl/forms/hUvrGzHmeqpIka3j2)
 &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;
 
-
-## Past events
 
 Date and time    |      Speakers     |   Title   |  Venue | 
 ----------- | ------------ | ---------------------- | ---------- | ---------
