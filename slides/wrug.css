@@ -1,0 +1,153 @@
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,400i,700|Merriweather+Sans:300,400);
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700);
+
+body {
+    font-family: Merriweather, Georgia, serif;
+    color: #515151;
+    line-height: 1.5;
+}
+
+.remark-slide-content {
+    font-size: 24px;
+}
+
+.footnote {
+    font-size: smaller;
+}
+
+h1, h2, h3 {
+    font-family: 'Merriweather Sans', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+
+a, a > code {
+    color: #178ccd;
+    text-decoration: none;
+}
+
+img, video, iframe {
+  max-width: 100%;
+}
+
+/*
+Green: #add31b 
+Blue: #178ccd
+*/
+.secondary { color: #aad31b; }
+.primary { color: #178ccd; }
+.comment { opacity: .5; }
+.comment:before {
+  content: '\00A0#\00A0';
+  font-family: 'Source Code Pro', 'Lucida Console', Monaco, monospace;
+}
+
+.inverse {
+    background-color: #178ccd;
+    color: #fff;
+    text-shadow: none;
+}
+.inverse a,
+.inverse a > code {
+    color: #fff;
+}
+
+.title-slide h1,
+.section h1 {
+    font-size: 108px;
+    line-height: 1.2;
+}
+.section .remark-slide-number { display: none; }
+.fullpage { padding: 1em 2em 1em 2em; }
+.fullpage img { width: 100%; }
+.fullpage h1,
+.fullpage h2,
+.fullpage h3 { margin-top: .5em; margin-bottom: .8em; }
+.fullpage p { margin: 0; }
+
+.inverse h1,
+.inverse h2,
+.inverse h3 {
+    color: #f3f3f3;
+    line-height: 1.2;
+}
+
+/* Syntax highlighting */
+.remark-code,
+.remark-inline-code {
+    font-family: 'Source Code Pro', 'Lucida Console', Monaco, monospace;
+}
+
+.remark-code-line-highlighted {
+    background-color: #ffff88;
+}
+
+/*
+    Lists styled to look like R code/output.
+    Uses CSS counters and selectors.
+*/
+
+ul, ol {
+    list-style-type: none;
+    padding-left: 3em;
+}
+
+li:before {
+    float: left; /* Stops <p> starting new line. */
+    font-family: 'Source Code Pro', 'Lucida Console', Monaco, monospace;
+}
+
+/* Ordered lists */
+ol > li:before,
+ol ol > li:before,
+ol ol ol > li:before { color: #178ccd; }
+ol > li              { counter-increment: item; }
+ol ol > li           { counter-increment: nested-item; }
+ol ol ol > li        { counter-increment: nested-nested-item; }
+ol > li:before       { content: "[" counter(item) "]\00A0"; }
+ol ol > li:before    { content: "[" counter(nested-item) "]\00A0"; }
+ol ol ol > li:before { content: "[" counter(nested-nested-item) "]\00A0"; }
+
+/* Unordered lists */
+ul li:before,
+ul ul li:before,
+ul ul ul li:before {
+    content: ">\00A0";
+    color: #add31b;
+}
+ul ul li:before { content: "+\00A0"; }
+ul ul ul li:before { content: "-\00A0"; }
+
+/* Description lists */
+dt { color: #178ccd; }
+dt:after {
+    content: "\00A0<-";
+    font-family: 'Source Code Pro', 'Lucida Console', Monaco, monospace;
+    color: #add31b;
+}
+
+/* Two-column layout */
+.left-column {
+  color: #777;
+  width: 20%;
+  height: 92%;
+  float: left;
+}
+.left-column h2:last-of-type, .left-column h3:last-child {
+  color: #000;
+}
+.right-column {
+  width: 75%;
+  float: right;
+  padding-top: 1em;
+}
+.pull-left {
+  float: left;
+  width: 47%;
+}
+.pull-right {
+  float: right;
+  width: 47%;
+}
+.pull-right ~ * {
+  clear: both;
+}
