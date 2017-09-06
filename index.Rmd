@@ -17,9 +17,6 @@ For information about upcoming talks and events, please check our meetup page [m
 
 As of September 2017, we plan to meet on the first Monday of every month in the Dorfman room of St Peter's College, Oxford. 
 
-* [4th September 2017](https://www.meetup.com/Oxford-R-User-Group/events/242617284/)
-    * Ella Kaye -- [Getting help with R (slides)](https://github.com/r-oxford/r-oxford.github.io/blob/master/slides/getting_help_in_R.pdf)
-    * Kieran Campbell -- [Being a hipstR: a tour of the coolest R packages you've never heard of (slides)](https://kieranrcampbell.github.io/blog/files/being-a-hipstr.html)
 * 2nd October 2017
     * Speakers TBC
 * 6th November 2017
@@ -30,16 +27,18 @@ As of September 2017, we plan to meet on the first Monday of every month in the 
 
 ## Past events
 
-
-Date and time    |      Speakers     |   Title   |  Venue | 
------------ | ------------ | ---------------------- | ---------- | ---------
-<b> May 18th, 5.30pm </b>  | [Ella Kaye](http://www2.warwick.ac.uk/fac/sci/statistics/staff/research_students/kaye/) and Tim Lucas, University of Oxford | **Ranking items scalably with the Bradley-Terry model: An introduction to the BradleyTerryScalable package**, and <br> **Caret and zoon: machine learning, ecology and domain specific package systems.** | [Larkin Room, St John's College](https://www.sjc.ox.ac.uk/documents/55/SJC-Map-Apr2015web.pdf.download.pdf) | [Sign up form](https://goo.gl/forms/hUvrGzHmeqpIka3j2)
-&nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;
-<b> April 5th, 5.30pm </b>  | [Martin John Hadley](https://twitter.com/martinjhnhadley) and [Kaspar Märtens](https://twitter.com/kasparmartens), University of Oxford | **Interactive graphics with Shiny & R**, and <br> **R Markdown and R Notebooks** | [Larkin Room, St John's College](https://www.sjc.ox.ac.uk/documents/55/SJC-Map-Apr2015web.pdf.download.pdf) | [Sign up form](https://goo.gl/forms/8V6gJeE21ELiBteA2)
-&nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;
-<b> November 10th, 6pm </b>  | [Louis Aslett](http://www.louisaslett.com), University of Oxford | [**Cheap and cheerful massively parallel batch R processing on EC2**](talks/louis_nov_10.html)  | [Larkin Room, St John's College](https://www.sjc.ox.ac.uk/documents/55/SJC-Map-Apr2015web.pdf.download.pdf) | [Sign up form](https://goo.gl/forms/YoDxCHKw7SIyBGSM2)
-&nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;
-
+* [4th September 2017](https://www.meetup.com/Oxford-R-User-Group/events/242617284/)
+    * Ella Kaye -- [Getting help with R (slides)](https://github.com/r-oxford/r-oxford.github.io/blob/master/slides/getting_help_in_R.pdf)
+    * Kieran Campbell -- [Being a hipstR: a tour of the coolest R packages you've never heard of (slides)](https://kieranrcampbell.github.io/blog/files/being-a-hipstr.html)
+* 18th May 2017
+    * Ella Kaye -- Ranking items scalably with the Bradley-Terry model: An introduction to the BradleyTerryScalable package
+    * Tim Lucas -- Caret and zoon: machine learning, ecology and domain specific package systems
+* 5th April 2017
+    * Martin John Hadley -- Interactive graphics with Shiny & R
+    * Kaspar Märtens -- R Markdown and R Notebooks
+* 10th November 2016
+    * Louis Aslett -- [Cheap and cheerful massively parallel batch R processing on EC2](talks/louis_nov_10.html) 
+    
 
 
 ## Sponsors
