@@ -17,8 +17,6 @@ For information about upcoming talks and events, please check our meetup page [m
 
 As of September 2017, we plan to meet on the first Monday of every month in the Dorfman room of St Peter's College, Oxford. 
 
-* 2nd October 2017
-    * Speakers TBC
 * 6th November 2017
     * Speakers TBC
 * 4th December 2017
@@ -27,6 +25,8 @@ As of September 2017, we plan to meet on the first Monday of every month in the 
 
 ## Past events
 
+* [2nd October 2017](https://www.meetup.com/Oxford-R-User-Group/events/242617300/)
+    * David Zimmermann -- [Introduction to the tidyverse](https://github.com/r-oxford/r-oxford.github.io/blob/master/slides/2017_10_tidyverse.pdf)
 * [4th September 2017](https://www.meetup.com/Oxford-R-User-Group/events/242617284/)
     * Ella Kaye -- [Getting help with R (slides)](https://github.com/r-oxford/r-oxford.github.io/blob/master/slides/getting_help_in_R.pdf)
     * Kieran Campbell -- [Being a hipstR: a tour of the coolest R packages you've never heard of (slides)](https://kieranrcampbell.github.io/blog/files/being-a-hipstr.html)
