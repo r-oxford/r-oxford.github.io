@@ -17,8 +17,8 @@ For information about upcoming talks and events, please check our meetup page [m
 
 We are holding regular meetings on the first Monday of every month in the Dorfman room of St Peter's College, Oxford. Please check our meetup page [meetup.com/Oxford-R-User-Group](https://www.meetup.com/Oxford-R-User-Group/) for latest information. 
 
-* 4th December 2017
-    * Speakers TBC
+* [4th December 2017](https://www.meetup.com/Oxford-R-User-Group/events/242617330/)
+    * Nic Crane from Mango Solutions -- R in the Wild: A Safari Adventure through Industry
 * 5th February 2018
     * Speakers TBC
 * 5th March 2018
@@ -28,9 +28,9 @@ We are holding regular meetings on the first Monday of every month in the Dorfma
 ## Past events
 
 * [6th November 2017](https://www.meetup.com/Oxford-R-User-Group/events/242617326/)
-    * Constantin Ahlmann-Eltze -- [ggplot2: whistlestop tour from basics to extensions](https://github.com/const-ae/ggplot2_basics_to_extensions)
+    * Constantin Ahlmann-Eltze -- [ggplot2: whistlestop tour from basics to extensions (slides)](https://github.com/const-ae/ggplot2_basics_to_extensions)
 * [2nd October 2017](https://www.meetup.com/Oxford-R-User-Group/events/242617300/)
-    * David Zimmermann -- [Introduction to the tidyverse](https://github.com/r-oxford/r-oxford.github.io/blob/master/slides/2017_10_tidyverse.pdf)
+    * David Zimmermann -- [Introduction to the tidyverse (slides)](https://github.com/r-oxford/r-oxford.github.io/blob/master/slides/2017_10_tidyverse.pdf)
 * [4th September 2017](https://www.meetup.com/Oxford-R-User-Group/events/242617284/)
     * Ella Kaye -- [Getting help with R (slides)](https://github.com/r-oxford/r-oxford.github.io/blob/master/slides/getting_help_in_R.pdf)
     * Kieran Campbell -- [Being a hipstR: a tour of the coolest R packages you've never heard of (slides)](https://kieranrcampbell.github.io/blog/files/being-a-hipstr.html)
@@ -51,17 +51,22 @@ We are holding regular meetings on the first Monday of every month in the Dorfma
 ![](RConsortium_logo.png)
 </div>
 
-Oxford R user group is sponsored by the [R consortium](https://www.r-consortium.org/). 
+<div style="width:200px">
+![](mango-solutions.png)
+</div>
+
+
+Oxford R user group is kindly sponsored by the [R consortium](https://www.r-consortium.org/) and [Mango solutions](https://www.mango-solutions.com/). 
+
 We follow the R Consortium and the R Community [Code of Conduct](https://wiki.r-consortium.org/view/R_Consortium_and_the_R_Community_Code_of_Conduct)
 
 
 ## Follow us 
 
-To keep informed about future events, follow us on [twitter](https://twitter.com/rusersoxford) and [facebook](https://www.facebook.com/rusersoxford/).
+To keep informed about future events, follow us on [twitter](https://twitter.com/rusersoxford).
 
 ```{r, echo=FALSE}
 htmltools::includeHTML('twitter.html')
-htmltools::includeHTML('facebook.html')
 
 ```
 
