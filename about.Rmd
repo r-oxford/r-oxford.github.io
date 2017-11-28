@@ -2,9 +2,9 @@
 title: "About"
 ---
 
-R users is currently in the process of being set up. We plan to hold informal talks once a month. To get in touch please contact one of the organisers below.
+To get in touch please contact one of the organisers below. 
 
-To keep informed about future events, follow us on [twitter](https://twitter.com/rusersoxford).
+For information about upcoming talks and events, please check our meetup page [meetup.com/Oxford-R-User-Group](https://www.meetup.com/Oxford-R-User-Group/) and follow us on [twitter](https://twitter.com/rusersoxford).
 
 ## OrganiseRs
 
@@ -14,32 +14,10 @@ To keep informed about future events, follow us on [twitter](https://twitter.com
 
 PhD student, University of Warwick
 
-### Kieran Campbell
-
-[\@kieranrcampbell](http://www.twitter.com/kieranrcampbell)
-
-DPhil student, University of Oxford. [email](mailto:kieran.campbell@sjc.ox.ac.uk)
-
 ### Kaspar Märtens
 
 [\@kasparmartens](http://www.twitter.com/kasparmartens)
 
-DPhil student, University of Oxford. 
+PhD student, University of Oxford
+
 [email](mailto:kaspar.martens@stats.ox.ac.uk)
-
-###  Justina Zurauskiene
-
-[\@jzurauskiene](http://www.twitter.com/JZurauskiene)
-
-Postdoc, University of Oxford
-
-### Martin John Hadley
-
-[\@martinjhnhadley](https://twitter.com/martinjhnhadley)
-
-Academic Research Technology Specialist, University of Oxford
-
-### David Ruvolo
-
-Postdoctoral Research Scientist, University of Oxford
-
