@@ -17,8 +17,6 @@ For information about upcoming talks and events, please check our meetup page [m
 
 We are holding regular meetings on the first Monday of every month in the Dorfman room of St Peter's College, Oxford. Please check our meetup page [meetup.com/Oxford-R-User-Group](https://www.meetup.com/Oxford-R-User-Group/) for latest information. 
 
-* [4th December 2017](https://www.meetup.com/Oxford-R-User-Group/events/242617330/)
-    * Nic Crane from Mango Solutions -- R in the Wild: A Safari Adventure through Industry
 * 5th February 2018
     * Speakers TBC
 * 5th March 2018
@@ -27,6 +25,8 @@ We are holding regular meetings on the first Monday of every month in the Dorfma
 
 ## Past events
 
+* [4th December 2017](https://www.meetup.com/Oxford-R-User-Group/events/242617330/)
+    * Nic Crane from Mango Solutions -- [R in the Wild: A Safari Adventure through Industry (slides)](slides/2017_12_R_in_the_wild.pdf)
 * [6th November 2017](https://www.meetup.com/Oxford-R-User-Group/events/242617326/)
     * Constantin Ahlmann-Eltze -- [ggplot2: whistlestop tour from basics to extensions (slides)](https://github.com/const-ae/ggplot2_basics_to_extensions)
 * [2nd October 2017](https://www.meetup.com/Oxford-R-User-Group/events/242617300/)
