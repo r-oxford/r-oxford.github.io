@@ -17,14 +17,14 @@ For information about upcoming talks and events, please check our meetup page [m
 
 We are holding regular meetings on the first Monday of every month in the Dorfman room of St Peter's College, Oxford. Please check our meetup page [meetup.com/Oxford-R-User-Group](https://www.meetup.com/Oxford-R-User-Group/) for latest information. 
 
-* 5th February 2018
-    * Speakers TBC
-* 5th March 2018
+* 9th April 2018
     * Speakers TBC
 
 
 ## Past events
 
+* [5th March 2018](https://www.meetup.com/Oxford-R-User-Group/events/247901095/)
+    * Rich FitzJohn -- [Using R's crazy introspection to build humane user interfaces](slides/2018_03.pdf)
 * [4th December 2017](https://www.meetup.com/Oxford-R-User-Group/events/242617330/)
     * Nic Crane from Mango Solutions -- [R in the Wild: A Safari Adventure through Industry (slides)](slides/2017_12_R_in_the_wild.pdf)
 * [6th November 2017](https://www.meetup.com/Oxford-R-User-Group/events/242617326/)

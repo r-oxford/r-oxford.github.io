@@ -20,8 +20,8 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/highlightjs-1.1/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-1.1/highlight.js"></script>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -30,12 +30,10 @@
   }
 </style>
 <script type="text/javascript">
-if (window.hljs) {
-  hljs.configure({languages: []});
-  hljs.initHighlightingOnLoad();
-  if (document.readyState && document.readyState === "complete") {
-    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
-  }
+if (window.hljs && document.readyState && document.readyState === "complete") {
+   window.setTimeout(function() {
+      hljs.initHighlighting();
+   }, 0);
 }
 </script>
 
@@ -329,11 +327,7 @@ function collide(node) {
 <h2>Upcoming events</h2>
 <p>We are holding regular meetings on the first Monday of every month in the Dorfman room of St Peter’s College, Oxford. Please check our meetup page <a href="https://www.meetup.com/Oxford-R-User-Group/">meetup.com/Oxford-R-User-Group</a> for latest information.</p>
 <ul>
-<li>5th February 2018
-<ul>
-<li>Speakers TBC</li>
-</ul></li>
-<li>5th March 2018
+<li>9th April 2018
 <ul>
 <li>Speakers TBC</li>
 </ul></li>
@@ -342,6 +336,10 @@ function collide(node) {
 <div id="past-events" class="section level2">
 <h2>Past events</h2>
 <ul>
+<li><a href="https://www.meetup.com/Oxford-R-User-Group/events/247901095/">5th March 2018</a>
+<ul>
+<li>Rich FitzJohn – <a href="slides/2018_03.pdf">Using R’s crazy introspection to build humane user interfaces</a></li>
+</ul></li>
 <li><a href="https://www.meetup.com/Oxford-R-User-Group/events/242617330/">4th December 2017</a>
 <ul>
 <li>Nic Crane from Mango Solutions – <a href="slides/2017_12_R_in_the_wild.pdf">R in the Wild: A Safari Adventure through Industry (slides)</a></li>
