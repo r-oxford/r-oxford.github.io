@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Setting up your PhD (or other research project!) as an R package</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Ella Kaye" />
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/remark-css/default-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Setting up your PhD (or other research project!) as an R package
+### Ella Kaye
+### Oxford R User Group, April 9th 2018
+
+---
+
+
+
+
+# Why?
+
+- Keep all your data/code/analysis together and easily accessible
+- Reproducible
+- Easy to share (e.g. with supervisors, the world)
+- It's easier than you may think!
+
+---
+
+# What I'm going to talk about
+
+- How to set up a (PhD) [package](http://r-pkgs.had.co.nz)
+- Basic package structure 
+- `devtools` and `usethis`
+- `bookdown` for authoring vignettes/reports
+- Setting up a personal package
+- What I've done for my PhD
+
+
+---
+
+# What I'm not going to talk about\*
+\*but which you should definitely consider as part of a package workflow
+
+- git/GitHub
+- packrat
+
+---
+
+# Setting up a package (demo)
+
+- Use the latest version of RStudio (1.1.419 or higher)
+- File &gt; New Project &gt; New Directory &gt; R Package
+
+---
+
+# [`devtools`](https://github.com/hadley/devtools) and [`usethis`](https://github.com/r-lib/usethis)
+
+- `devtools` is a set of package development tools primarily written by Hadley Wickham to make it easy for Hadley Wickham to write packages
+
+- `usethis` automates many common package and analysis setup tasks (splits off from `devtools`) 
+
+- `libary(devtools)` (first)
+- `library(usethis)` (second)
+
+---
+
+# Data (demo)
+- `usethis::use_data_raw`
+- `usethis::use_data`
+- `devtools::load_all()` (Shift + Cmd + L)
+
+---
+
+# [Document](http://r-pkgs.had.co.nz/man.html) your data with `roxygen2` (demo)
+
+- data_documentation.R (in R folder)
+- Can now [use markdown](https://cran.r-project.org/web/packages/roxygen2/vignettes/markdown.html). Add the following to the DESCRIPTION:
+
+    `Roxygen: list(markdown = TRUE)`
+- `devtools::document()`
+
+---
+
+## In data-raw folder
+
+- Data creations scripts
+- Raw data (though these don't have to be in the package)
+
+## In R folder
+
+- Data import functions (for use in data creation scripts)
+- data_documentation.R for documenting your data
+- Analysis functions
+    - Be sure to document these too!
+    - Consider putting functions that aren't specific to this project into a personal package - pros and cons
+        
+---
+
+# Markdown
+
+- [Markdown](https://daringfireball.net/projects/markdown/): 
+    - sections, lists, links, images
+
+- [Pandoc](http://pandoc.org): 
+    - adds footnotes, [citations](http://rmarkdown.rstudio.com/authoring_bibliographies_and_citations#citation_syntax), tables
+    - raw `\(\LaTeX\)` (including the ability to use `\(\LaTeX\)` packages)
+    - makes it possible to generate HMTL, LaTeX/pdf, Word and slides
+
+- [R Markdown](http://rmarkdown.rstudio.com):
+    - Uses Pandoc markdown
+    - adds code chunks
+---
+
+# [`bookdown`](https://bookdown.org/yihui/bookdown/)
+
+A package by Yihui Xie that [extends](https://bookdown.org/yihui/bookdown/markdown-extensions-by-bookdown.html#special-headers) R Markdown with features that actually make it feasible to write a statistics PhD.
+
+- Number and reference equations
+- Theorems and proofs
+- Special headers
+    - (PART)
+    - (APPENDIX) 
+- Text references
+
+(show bookdown_examples.Rmd)
+
+`bookdown` can be used to bring a thesis together
+
+- Typically, each chapter is a separate .Rmd file
+- Switch between HTML and pdf
+
+Goodbye `\(\LaTeX\)`!
+---
+
+# Analysis as [vignettes](http://r-pkgs.had.co.nz/vignettes.html)
+Keeps everything together. 
+
+- `usethis::use_vignette()`
+- modify the .Rmd file
+- `devtools::build_vignettes()`
+- Install and Restart
+- `browseVignettes("package_name")`
+
+
+## Downsides
+- Knitting only gets you a temp html file
+- Building vignettes can be time-consuming
+- Have to build all the vignettes together
+
+---
+
+
+# Analysis as separate files
+
+- Make a 'reports' folder (can use Terminal in RStudio)
+- `usethis::use_build_ignore("reports")`
+- create .Rmd files and knit as usual
+---
+
+# Personal packages
+
+- A great way to store functions that you write that you use across different projects
+
+- Show EMK.Rproj
+
+- [https://github.com/EllaKaye/EMK](https://github.com/EllaKaye/EMK)
+
+- Share your package (tweet link to GitHub, blog about it etc) - if you find your functions useful, chances are someone else will too!
+
+- A blogpost on making a personal package: [https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/](https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/)
+
+---
+
+# A look at my `Admissions` package
+
+---
+
+# Main links
+
+[R packages](http://r-pkgs.had.co.nz): An (online) book on R packages by Hadley Wickham
+
+[R packages cheatsheet](https://www.rstudio.com/resources/cheatsheets/): Also available within RStudio from Help &gt; Cheatsheets
+
+[`bookdown`](https://bookdown.org/yihui/bookdown/): A `bookdown` generated book about `bookdown` by Yihui Xie
+
+[Happy git with R](http://happygitwithr.com): Superb bookdown book on git and GitHub for the useR.
+
+
+
+---
+
+class: inverse, center, middle
+
+# Thank you!
+## Any questions?
+
+
+## I'd love to hear from you!
+[E.Kaye.1@warwick.ac.uk](mailto:E.Kaye.1@warwick.ac.uk)
+
+[@ellamkaye](https://twitter.com/ellamkaye)
+
+[ellakaye.rbind.io](https://ellakaye.rbind.io)
+
+[github.com/EllaKaye](https://github.com/ellakaye)
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function() {
+  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})();</script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+  }
+});
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
