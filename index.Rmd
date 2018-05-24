@@ -17,12 +17,16 @@ For information about upcoming talks and events, please check our meetup page [m
 
 We are holding regular meetings on the first Monday of every month in the Dorfman room of St Peter's College, Oxford. Please check our meetup page [meetup.com/Oxford-R-User-Group](https://www.meetup.com/Oxford-R-User-Group/) for latest information. 
 
-* [30th April 2018](https://www.meetup.com/Oxford-R-User-Group/events/249326998/)
-    * Manuel Spitschan -- Using colour in R: Fundamentals and applications
+* [4th June 2018](https://www.meetup.com/Oxford-R-User-Group/events/250993572/)
+    * Jelena Ilic -- The fast and the fuRious (how to make your R code fly)
+* [13th June 2018](https://www.meetup.com/Oxford-R-User-Group/events/251043298/)
+    * Michael Betancourt [[website]](https://betanalpha.github.io/) -- Towards a Principled Bayesian Workflow
 
 
 ## Past events
 
+* [30th April 2018](https://www.meetup.com/Oxford-R-User-Group/events/249326998/)
+    * Manuel Spitschan -- Using colour in R: Fundamentals and applications
 * [9th April 2018](https://www.meetup.com/Oxford-R-User-Group/events/248767956/)
     * Ella Kaye -- Turning your PhD (or other research project!) into an R package [[slides html]](https://htmlpreview.github.io/?https://raw.githubusercontent.com/r-oxford/r-oxford.github.io/master/slides/2018_04_PhD_to_package.html) [[slides pdf]](https://github.com/r-oxford/r-oxford.github.io/blob/master/slides/2018_04_PhD_to_package.pdf)
 * [5th March 2018](https://www.meetup.com/Oxford-R-User-Group/events/247901095/)

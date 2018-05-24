@@ -20,8 +20,8 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-1.1/default.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-1.1/highlight.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -30,10 +30,12 @@
   }
 </style>
 <script type="text/javascript">
-if (window.hljs && document.readyState && document.readyState === "complete") {
-   window.setTimeout(function() {
-      hljs.initHighlighting();
-   }, 0);
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
 }
 </script>
 
@@ -327,15 +329,23 @@ function collide(node) {
 <h2>Upcoming events</h2>
 <p>We are holding regular meetings on the first Monday of every month in the Dorfman room of St Peter’s College, Oxford. Please check our meetup page <a href="https://www.meetup.com/Oxford-R-User-Group/">meetup.com/Oxford-R-User-Group</a> for latest information.</p>
 <ul>
-<li><a href="https://www.meetup.com/Oxford-R-User-Group/events/249326998/">30th April 2018</a>
+<li><a href="https://www.meetup.com/Oxford-R-User-Group/events/250993572/">4th June 2018</a>
 <ul>
-<li>Manuel Spitschan – Using colour in R: Fundamentals and applications</li>
+<li>Jelena Ilic – The fast and the fuRious (how to make your R code fly)</li>
+</ul></li>
+<li><a href="https://www.meetup.com/Oxford-R-User-Group/events/251043298/">13th June 2018</a>
+<ul>
+<li>Michael Betancourt <a href="https://betanalpha.github.io/">[website]</a> – Towards a Principled Bayesian Workflow</li>
 </ul></li>
 </ul>
 </div>
 <div id="past-events" class="section level2">
 <h2>Past events</h2>
 <ul>
+<li><a href="https://www.meetup.com/Oxford-R-User-Group/events/249326998/">30th April 2018</a>
+<ul>
+<li>Manuel Spitschan – Using colour in R: Fundamentals and applications</li>
+</ul></li>
 <li><a href="https://www.meetup.com/Oxford-R-User-Group/events/248767956/">9th April 2018</a>
 <ul>
 <li>Ella Kaye – Turning your PhD (or other research project!) into an R package <a href="https://htmlpreview.github.io/?https://raw.githubusercontent.com/r-oxford/r-oxford.github.io/master/slides/2018_04_PhD_to_package.html">[slides html]</a> <a href="https://github.com/r-oxford/r-oxford.github.io/blob/master/slides/2018_04_PhD_to_package.pdf">[slides pdf]</a></li>
