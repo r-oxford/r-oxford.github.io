@@ -17,15 +17,12 @@ For information about upcoming talks and events, please check our meetup page [m
 
 We are holding regular meetings on the first Monday of every month in the Dorfman room of St Peter's College, Oxford. Please check our meetup page [meetup.com/Oxford-R-User-Group](https://www.meetup.com/Oxford-R-User-Group/) for latest information. 
 
-* [5th November 2018](https://www.meetup.com/Oxford-R-User-Group/events/255738383/)
-    * [Ioannis Kosmidis](http://www.ikosmidis.com) -- Package and collaboration networks in CRAN
+* 1st October 2018
+    * TBC
     
 
 ## Past events
 
-* [9th October 2018](https://www.meetup.com/Oxford-R-User-Group/events/255163963/)
-    * Kaspar Märtens -- Creating animations using gganimate
-    * Thomas Joseph -- The curious profile of a retail customer
 * [3rd September 2018](https://www.meetup.com/Oxford-R-User-Group/events/254008320/)
     * Martin John Hadley -- Reproducible Dataviz Workflows with R [[slides and code examples on figshare]](https://figshare.com/articles/Oxford_RUG_Talk_September_2018/7039997)
 * [13th June 2018](https://www.meetup.com/Oxford-R-User-Group/events/251043298/)
@@ -77,6 +74,11 @@ We follow the R Consortium and the R Community [Code of Conduct](https://wiki.r-
 ## Follow us 
 
 To keep informed about future events, follow us on [twitter](https://twitter.com/rusersoxford).
+
+```{r, echo=FALSE}
+htmltools::includeHTML('twitter.html')
+
+```
 
 
 
