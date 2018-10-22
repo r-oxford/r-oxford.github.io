@@ -78,10 +78,5 @@ We follow the R Consortium and the R Community [Code of Conduct](https://wiki.r-
 
 To keep informed about future events, follow us on [twitter](https://twitter.com/rusersoxford).
 
-```{r, echo=FALSE}
-htmltools::includeHTML('twitter.html')
-
-```
-
 
 
