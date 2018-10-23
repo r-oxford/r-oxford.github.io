@@ -17,16 +17,15 @@ We are holding regular meetings on the first Monday of every month in the Dorfma
 
 
 * [5th November 2018](https://www.meetup.com/Oxford-R-User-Group/events/255738383/)
-    * [Ioannis Kosmidis](http://www.ikosmidis.com) -- Package and collaboration networks in CRAN
-  
-**Title: Package and collaboration networks in CRAN**
 
-**Speaker: [Ioannis Kosmidis](http://www.ikosmidis.com)**
-  
-The [Comprehensive R Archive Network](https://cran.r-project.org) (CRAN) is a diverse software ecosystem that is growing fast in size, both in terms of packages and package authors. The numbers at the time of writing this abstract are that CRAN involves just above 12.5K packages from about 18.5K authors. Keeping track of the ecosystem is, at least to me, hard, particularly in terms of effectively searching packages and authors through the network, summarising it and discovering new package and author associations.
+    **Title: Package and collaboration networks in CRAN**
+    
+    **Speaker: [Ioannis Kosmidis](http://www.ikosmidis.com)**
       
-In this talk, I will introduce my [**cranly**](https://github.com/ikosmidis/cranly) R package which streamlines and simplifies the analysis of CRAN. In particular, we will cover **cranly**'s capabilities for cleaning up and organising the information in the CRAN package database, building package directives networks (depends, imports, suggests, enhances, linking to) and collaboration networks, and computing summaries and producing interactive visualisations from the resulting networks. I will also touch upon modelling, particularly on how directives and collaboration networks can be coerced to [igraph](https://CRAN.R-project.org/package=igraph) objects for further analyses and modelling.
-
+    **Abstract:** The [Comprehensive R Archive Network](https://cran.r-project.org) (CRAN) is a diverse software ecosystem that is growing fast in size, both in terms of packages and package authors. The numbers at the time of writing this abstract are that CRAN involves just above 12.5K packages from about 18.5K authors. Keeping track of the ecosystem is, at least to me, hard, particularly in terms of effectively searching packages and authors through the network, summarising it and discovering new package and author associations.
+          
+    In this talk, I will introduce my [**cranly**](https://github.com/ikosmidis/cranly) R package which streamlines and simplifies the analysis of CRAN. In particular, we will cover **cranly**'s capabilities for cleaning up and organising the information in the CRAN package database, building package directives networks (depends, imports, suggests, enhances, linking to) and collaboration networks, and computing summaries and producing interactive visualisations from the resulting networks. I will also touch upon modelling, particularly on how directives and collaboration networks can be coerced to [igraph](https://CRAN.R-project.org/package=igraph) objects for further analyses and modelling.
+    
 
 ## Past events
 
