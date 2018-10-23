@@ -10,19 +10,29 @@ output:
 
 Welcome to the home of the Oxford R Users Group. We are dedicated to bringing together area practitioners of R to exchange knowledge, inspire new users, and spur the adoption of R for innovative research and commercial applications.
 
-For information about upcoming talks and events, please check our meetup page [meetup.com/Oxford-R-User-Group](https://www.meetup.com/Oxford-R-User-Group/). Everyone is welcome! 
+We are holding regular meetings on the first Monday of every month in the Dorfman room of St Peter's College, Oxford. For information about upcoming talks and events, please check our meetup page [meetup.com/Oxford-R-User-Group](https://www.meetup.com/Oxford-R-User-Group/) for latest information. Everyone is welcome! 
 
 
 ## Upcoming events
 
-We are holding regular meetings on the first Monday of every month in the Dorfman room of St Peter's College, Oxford. Please check our meetup page [meetup.com/Oxford-R-User-Group](https://www.meetup.com/Oxford-R-User-Group/) for latest information. 
 
-* 1st October 2018
-    * TBC
-    
+* [5th November 2018](https://www.meetup.com/Oxford-R-User-Group/events/255738383/)
+    * [Ioannis Kosmidis](http://www.ikosmidis.com) -- Package and collaboration networks in CRAN
+  
+**Title: Package and collaboration networks in CRAN**
+
+**Speaker: [Ioannis Kosmidis](http://www.ikosmidis.com)**
+  
+The [Comprehensive R Archive Network](https://cran.r-project.org) (CRAN) is a diverse software ecosystem that is growing fast in size, both in terms of packages and package authors. The numbers at the time of writing this abstract are that CRAN involves just above 12.5K packages from about 18.5K authors. Keeping track of the ecosystem is, at least to me, hard, particularly in terms of effectively searching packages and authors through the network, summarising it and discovering new package and author associations.
+      
+In this talk, I will introduce my [**cranly**](https://github.com/ikosmidis/cranly) R package which streamlines and simplifies the analysis of CRAN. In particular, we will cover **cranly**'s capabilities for cleaning up and organising the information in the CRAN package database, building package directives networks (depends, imports, suggests, enhances, linking to) and collaboration networks, and computing summaries and producing interactive visualisations from the resulting networks. I will also touch upon modelling, particularly on how directives and collaboration networks can be coerced to [igraph](https://CRAN.R-project.org/package=igraph) objects for further analyses and modelling.
+
 
 ## Past events
 
+* [9th October 2018](https://www.meetup.com/Oxford-R-User-Group/events/255163963/)
+    * Kaspar Märtens -- Creating animations using gganimate
+    * Thomas Joseph -- The curious profile of a retail customer
 * [3rd September 2018](https://www.meetup.com/Oxford-R-User-Group/events/254008320/)
     * Martin John Hadley -- Reproducible Dataviz Workflows with R [[slides and code examples on figshare]](https://figshare.com/articles/Oxford_RUG_Talk_September_2018/7039997)
 * [13th June 2018](https://www.meetup.com/Oxford-R-User-Group/events/251043298/)
@@ -79,6 +89,5 @@ To keep informed about future events, follow us on [twitter](https://twitter.com
 htmltools::includeHTML('twitter.html')
 
 ```
-
 
 
