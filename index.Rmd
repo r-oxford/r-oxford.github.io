@@ -15,22 +15,21 @@ We are holding regular meetings on the first Monday of every month in the Dorfma
 
 ## Upcoming events
 
+* [4th February 2018](https://www.meetup.com/Oxford-R-User-Group/events/258322778/)
+    * Nic Crane -- 10 Steps to Becoming a Tidyverse Contributor
 
-* [5th November 2018](https://www.meetup.com/Oxford-R-User-Group/events/255738383/)
-
-    **Title: Package and collaboration networks in CRAN**
-    
-    **Speaker: [Ioannis Kosmidis](http://www.ikosmidis.com)**
-      
-    **Abstract:** The [Comprehensive R Archive Network](https://cran.r-project.org) (CRAN) is a diverse software ecosystem that is growing fast in size, both in terms of packages and package authors. The numbers at the time of writing this abstract are that CRAN involves just above 12.5K packages from about 18.5K authors. Keeping track of the ecosystem is, at least to me, hard, particularly in terms of effectively searching packages and authors through the network, summarising it and discovering new package and author associations.
-          
-    In this talk, I will introduce my [**cranly**](https://github.com/ikosmidis/cranly) R package which streamlines and simplifies the analysis of CRAN. In particular, we will cover **cranly**'s capabilities for cleaning up and organising the information in the CRAN package database, building package directives networks (depends, imports, suggests, enhances, linking to) and collaboration networks, and computing summaries and producing interactive visualisations from the resulting networks. I will also touch upon modelling, particularly on how directives and collaboration networks can be coerced to [igraph](https://CRAN.R-project.org/package=igraph) objects for further analyses and modelling.
-    
+* 4th March 2018
+    * TBC
 
 ## Past events
 
+* [14th January 2019](https://www.meetup.com/Oxford-R-User-Group/events/257706604/)
+    * Jonathan Harrison -- Is my code really doing what I think it is? A brief introduction to unit testing in R with testthat [[slides]](https://github.com/shug3502/mathFunctions/blob/master/docs/testthat.pdf)
+    * Srinivasa Rao -- Regex in R [[slides]](https://github.com/r-oxford/r-oxford.github.io/blob/master/slides/2019_01_regex/regex.pdf)
+* [5th November 2018](https://www.meetup.com/Oxford-R-User-Group/events/255738383/)
+    * Ioannis Kosmidis -- Package and collaboration networks in CRAN [[slides]](http://ikosmidis.com/files/ikosmidis_cranly_OxfordRUG_2018.pdf)
 * [9th October 2018](https://www.meetup.com/Oxford-R-User-Group/events/255163963/)
-    * Kaspar Märtens -- Creating animations using gganimate
+    * Kaspar Märtens -- Creating animations using gganimate [[slides and code]](https://github.com/kasparmartens/2018_10_gganimate)
     * Thomas Joseph -- The curious profile of a retail customer
 * [3rd September 2018](https://www.meetup.com/Oxford-R-User-Group/events/254008320/)
     * Martin John Hadley -- Reproducible Dataviz Workflows with R [[slides and code examples on figshare]](https://figshare.com/articles/Oxford_RUG_Talk_September_2018/7039997)
