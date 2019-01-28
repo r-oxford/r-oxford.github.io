@@ -15,10 +15,10 @@ We are holding regular meetings on the first Monday of every month in the Dorfma
 
 ## Upcoming events
 
-* [4th February 2018](https://www.meetup.com/Oxford-R-User-Group/events/258322778/)
+* [4th February 2019](https://www.meetup.com/Oxford-R-User-Group/events/258322778/)
     * Nic Crane -- 10 Steps to Becoming a Tidyverse Contributor
 
-* 4th March 2018
+* 4th March 2019
     * TBC
 
 ## Past events
