@@ -30,7 +30,7 @@ We are holding regular meetings on the first Monday of every month in the Dorfma
     * Ioannis Kosmidis -- Package and collaboration networks in CRAN [[slides]](http://ikosmidis.com/files/ikosmidis_cranly_OxfordRUG_2018.pdf)
 * [9th October 2018](https://www.meetup.com/Oxford-R-User-Group/events/255163963/)
     * Kaspar Märtens -- Creating animations using gganimate [[slides and code]](https://github.com/kasparmartens/2018_10_gganimate)
-    * Thomas Joseph -- The curious profile of a retail customer
+    * Thomas Joseph -- The curious profile of a retail customer [[sildes]](https://github.com/r-oxford/r-oxford.github.io/blob/master/slides/2018_10_Curious_Profile_RetailCustomer.pdf)
 * [3rd September 2018](https://www.meetup.com/Oxford-R-User-Group/events/254008320/)
     * Martin John Hadley -- Reproducible Dataviz Workflows with R [[slides and code examples on figshare]](https://figshare.com/articles/Oxford_RUG_Talk_September_2018/7039997)
 * [13th June 2018](https://www.meetup.com/Oxford-R-User-Group/events/251043298/)
