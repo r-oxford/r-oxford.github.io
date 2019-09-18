@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -69,9 +70,7 @@ h6 {
 </style>
 
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -85,7 +84,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -190,8 +188,6 @@ $(document).ready(function () {
 });
 </script>
 
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
 
 <style type="text/css">
@@ -248,20 +244,17 @@ $(document).ready(function () {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -429,8 +422,7 @@ function collide(node) {
 <div id="upcoming-events" class="section level2">
 <h2>Upcoming events</h2>
 <ul>
-<li>4th March 2019
-<ul>
+<li><ul>
 <li>TBC</li>
 </ul></li>
 </ul>
@@ -438,6 +430,27 @@ function collide(node) {
 <div id="past-events" class="section level2">
 <h2>Past events</h2>
 <ul>
+<li><a href="https://www.meetup.com/Oxford-R-User-Group/events/264518687/">16th September 2019</a>
+<ul>
+<li>Jakob Theorell – Building and publishing R packages: lessons learnt while turning code snippets into DepecheR <a href="https://github.com/r-oxford/r-oxford.github.io/blob/master/slides/2019_09_building_R_packages.pdf">[slides]</a></li>
+</ul></li>
+<li><a href="https://www.meetup.com/Oxford-R-User-Group/events/261511338/">3rd June 2019</a>
+<ul>
+<li>Toryn Poolman – MixOmics: integrating multiple “omic” datasets in R</li>
+</ul></li>
+<li><a href="https://www.meetup.com/Oxford-R-User-Group/events/261038750/">13th May 2019</a>
+<ul>
+<li>Nayyar Kazmi – Uses of R in Digital Marketing and E-Commerce</li>
+</ul></li>
+<li><a href="https://www.meetup.com/Oxford-R-User-Group/events/260114923/">8th April 2019</a>
+<ul>
+<li>Douglas Ashton – Deep Learning in R with Keras and Google Cloud ML Engine</li>
+</ul></li>
+<li><a href="https://www.meetup.com/Oxford-R-User-Group/events/259122219/">4th March 2019</a>
+<ul>
+<li>Douglas Campbell – We use Microsoft in this Council, how does R fit in? Some experiences with officeR in local government</li>
+<li>Douglas Campbell – Demonstrating that you’ve taken account of a consultation. Using RQDA to analyse texts and emails</li>
+</ul></li>
 <li><a href="https://www.meetup.com/Oxford-R-User-Group/events/258322778/">4th February 2019</a>
 <ul>
 <li>Nic Crane – 10 Steps to Becoming a Tidyverse Contributor <a href="https://github.com/r-oxford/r-oxford.github.io/blob/master/slides/2019_02_ten_steps_tidyverse_contributor.pdf">[slides]</a></li>
@@ -516,16 +529,10 @@ function collide(node) {
 <div id="sponsors" class="section level2">
 <h2>Sponsors</h2>
 <div style="width:200px">
-<div class="figure">
-<img src="RConsortium_logo.png" />
-
-</div>
+<p><img src="RConsortium_logo.png" /></p>
 </div>
 <div style="width:200px">
-<div class="figure">
-<img src="mango-solutions.png" />
-
-</div>
+<p><img src="mango-solutions.png" /></p>
 </div>
 <p>Oxford R user group is kindly sponsored by the <a href="https://www.r-consortium.org/">R consortium</a> and <a href="https://www.mango-solutions.com/">Mango solutions</a>.</p>
 <p>We follow the R Consortium and the R Community <a href="https://wiki.r-consortium.org/view/R_Consortium_and_the_R_Community_Code_of_Conduct">Code of Conduct</a></p>
@@ -553,6 +560,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

@@ -15,11 +15,21 @@ We are holding regular meetings on the first Monday of every month in the Dorfma
 
 ## Upcoming events
 
-* 4th March 2019
+* 7th October 2019
     * TBC
 
 ## Past events
-
+* [16th September 2019](https://www.meetup.com/Oxford-R-User-Group/events/264518687/)
+    * Jakob Theorell -- Building and publishing R packages: lessons learnt while turning code snippets into DepecheR [[slides]](https://github.com/r-oxford/r-oxford.github.io/blob/master/slides/2019_09_building_R_packages.pdf)
+* [3rd June 2019](https://www.meetup.com/Oxford-R-User-Group/events/261511338/)
+    * Toryn Poolman -- MixOmics: integrating multiple "omic" datasets in R
+* [13th May 2019](https://www.meetup.com/Oxford-R-User-Group/events/261038750/)
+    * Nayyar Kazmi -- Uses of R in Digital Marketing and E-Commerce
+* [8th April 2019](https://www.meetup.com/Oxford-R-User-Group/events/260114923/)
+    * Douglas Ashton -- Deep Learning in R with Keras and Google Cloud ML Engine
+* [4th March 2019](https://www.meetup.com/Oxford-R-User-Group/events/259122219/)
+    * Douglas Campbell -- We use Microsoft in this Council, how does R fit in? Some experiences with officeR in local government
+    * Douglas Campbell -- Demonstrating that you’ve taken account of a consultation. Using RQDA to analyse texts and emails
 * [4th February 2019](https://www.meetup.com/Oxford-R-User-Group/events/258322778/)
     * Nic Crane -- 10 Steps to Becoming a Tidyverse Contributor [[slides]](https://github.com/r-oxford/r-oxford.github.io/blob/master/slides/2019_02_ten_steps_tidyverse_contributor.pdf)
 * [14th January 2019](https://www.meetup.com/Oxford-R-User-Group/events/257706604/)
