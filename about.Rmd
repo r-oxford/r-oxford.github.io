@@ -8,15 +8,9 @@ For information about upcoming talks and events, please check our meetup page [m
 
 ## OrganiseRs
 
-### Ella Kaye
-
-[\@ellamkaye](http://www.twitter.com/ellamkaye)
-
 ### Kaspar Märtens
 
-[\@kasparmartens](http://www.twitter.com/kasparmartens)
-
-[email](mailto:kaspar.martens@stats.ox.ac.uk)
+[\@kasparmartens](http://www.twitter.com/kasparmartens), [email](mailto:kaspar.martens@stats.ox.ac.uk)
 
 ### Mariagrazia Zottoli
 
@@ -26,4 +20,9 @@ For information about upcoming talks and events, please check our meetup page [m
 ### Francesca Panero
 
 [\@TheFrappies](http://www.twitter.com/TheFrappies)
+
+### Aino Järvelin
+
+[\@AinoJarvelin](https://twitter.com/AinoJarvelin)
+
 

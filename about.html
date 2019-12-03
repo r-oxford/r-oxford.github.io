@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -69,9 +70,7 @@ h6 {
 </style>
 
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -85,7 +84,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -95,6 +93,9 @@ img {
 }
 button.code-folding-btn:focus {
   outline: none;
+}
+summary {
+  display: list-item;
 }
 </style>
 
@@ -187,8 +188,6 @@ $(document).ready(function () {
 });
 </script>
 
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
 
 <style type="text/css">
@@ -245,20 +244,17 @@ $(document).ready(function () {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -302,14 +298,9 @@ $(document).ready(function () {
 <p>For information about upcoming talks and events, please check our meetup page <a href="https://www.meetup.com/Oxford-R-User-Group/">meetup.com/Oxford-R-User-Group</a> and follow us on <a href="https://twitter.com/rusersoxford">twitter</a>.</p>
 <div id="organisers" class="section level2">
 <h2>OrganiseRs</h2>
-<div id="ella-kaye" class="section level3">
-<h3>Ella Kaye</h3>
-<p><a href="http://www.twitter.com/ellamkaye">@ellamkaye</a></p>
-</div>
-<div id="kaspar-martens" class="section level3">
+<div id="kaspar-märtens" class="section level3">
 <h3>Kaspar Märtens</h3>
-<p><a href="http://www.twitter.com/kasparmartens">@kasparmartens</a></p>
-<p><a href="mailto:kaspar.martens@stats.ox.ac.uk">email</a></p>
+<p><a href="http://www.twitter.com/kasparmartens">@kasparmartens</a>, <a href="mailto:kaspar.martens@stats.ox.ac.uk">email</a></p>
 </div>
 <div id="mariagrazia-zottoli" class="section level3">
 <h3>Mariagrazia Zottoli</h3>
@@ -318,6 +309,10 @@ $(document).ready(function () {
 <div id="francesca-panero" class="section level3">
 <h3>Francesca Panero</h3>
 <p><a href="http://www.twitter.com/TheFrappies">@TheFrappies</a></p>
+</div>
+<div id="aino-järvelin" class="section level3">
+<h3>Aino Järvelin</h3>
+<p><a href="https://twitter.com/AinoJarvelin">@AinoJarvelin</a></p>
 </div>
 </div>
 
@@ -338,6 +333,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

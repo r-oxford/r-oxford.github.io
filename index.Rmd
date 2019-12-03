@@ -15,10 +15,16 @@ We are holding regular meetings on the first Monday of every month in the Dorfma
 
 ## Upcoming events
 
-* 7th October 2019
-    * TBC
+* 3rd February 2020 -- TBC
 
 ## Past events
+
+* [2nd December 2019](https://www.meetup.com/Oxford-R-User-Group/events/266780123/)
+    * Karina Marks -- Putting the R in JupyteR notebooks [[slides]](https://github.com/r-oxford/r-oxford.github.io/blob/master/slides/2019_12_R_in_Jupyter.pdf)
+* [4th November 2019](https://www.meetup.com/Oxford-R-User-Group/events/266042457/)
+    * Ulrik Lyngs (https://ulriklyngs.com) -- Reproducible research with R Markdown - feat. article and DPhil thesis writing [[slides]](https://ulyngs.github.io/rmarkdown-workshop-2019/slides/OxfordRUsers.html)
+* [7th October 2019](https://www.meetup.com/Oxford-R-User-Group/events/265179152/)
+    * Julia Clark -- A step by step guide to "How I produced my first Shiny app", followed by a discussion of use cases with examples
 * [16th September 2019](https://www.meetup.com/Oxford-R-User-Group/events/264518687/)
     * Jakob Theorell -- Building and publishing R packages: lessons learnt while turning code snippets into DepecheR [[slides]](https://github.com/r-oxford/r-oxford.github.io/blob/master/slides/2019_09_building_R_packages.pdf)
 * [3rd June 2019](https://www.meetup.com/Oxford-R-User-Group/events/261511338/)
