@@ -7,7 +7,6 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
-<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -84,6 +83,7 @@ code {
 }
 img {
   max-width:100%;
+  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -243,6 +243,18 @@ $(document).ready(function () {
   display: none;
 }
 </style>
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
 
 <!-- code folding -->
 
@@ -422,12 +434,16 @@ function collide(node) {
 <div id="upcoming-events" class="section level2">
 <h2>Upcoming events</h2>
 <ul>
-<li>3rd February 2020 – TBC</li>
+<li>2nd March 2020 – TBC</li>
 </ul>
 </div>
 <div id="past-events" class="section level2">
 <h2>Past events</h2>
 <ul>
+<li><a href="https://www.meetup.com/Oxford-R-User-Group/events/268293138/">3rd February 2020</a>
+<ul>
+<li>Milan Wiedemann (<a href="https://www.milanwiedemann.com" class="uri">https://www.milanwiedemann.com</a>) – My journey from error messages to R Packages - Building tools to improve reproducibility and productivity in clinical psychology <a href="https://github.com/r-oxford/r-oxford.github.io/blob/master/slides/2020_02_my_R_journey.pdf">[slides]</a></li>
+</ul></li>
 <li><a href="https://www.meetup.com/Oxford-R-User-Group/events/266780123/">2nd December 2019</a>
 <ul>
 <li>Karina Marks – Putting the R in JupyteR notebooks <a href="https://github.com/r-oxford/r-oxford.github.io/blob/master/slides/2019_12_R_in_Jupyter.pdf">[slides]</a></li>
@@ -570,23 +586,6 @@ $(document).ready(function () {
 
 
 </script>
-
-<!-- tabsets -->
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
-<!-- code folding -->
-
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

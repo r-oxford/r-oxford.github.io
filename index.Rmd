@@ -15,10 +15,12 @@ We are holding regular meetings on the first Monday of every month in the Dorfma
 
 ## Upcoming events
 
-* 3rd February 2020 -- TBC
+* 2nd March 2020 -- TBC
 
 ## Past events
 
+* [3rd February 2020](https://www.meetup.com/Oxford-R-User-Group/events/268293138/)
+    * Milan Wiedemann (https://www.milanwiedemann.com) -- My journey from error messages to R Packages - Building tools to improve reproducibility and productivity in clinical psychology [[slides]](https://github.com/r-oxford/r-oxford.github.io/blob/master/slides/2020_02_my_R_journey.pdf)
 * [2nd December 2019](https://www.meetup.com/Oxford-R-User-Group/events/266780123/)
     * Karina Marks -- Putting the R in JupyteR notebooks [[slides]](https://github.com/r-oxford/r-oxford.github.io/blob/master/slides/2019_12_R_in_Jupyter.pdf)
 * [4th November 2019](https://www.meetup.com/Oxford-R-User-Group/events/266042457/)
