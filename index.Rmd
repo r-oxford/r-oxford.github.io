@@ -10,15 +10,20 @@ output:
 
 Welcome to the home of the Oxford R Users Group. We are dedicated to bringing together area practitioners of R to exchange knowledge, inspire new users, and spur the adoption of R for innovative research and commercial applications.
 
-We are holding regular meetings on the first Monday of every month in the Dorfman room of St Peter's College, Oxford. For information about upcoming talks and events, please check our meetup page [meetup.com/Oxford-R-User-Group](https://www.meetup.com/Oxford-R-User-Group/) for latest information. Everyone is welcome! 
+We are holding regular meetings on the first Monday of every month in the Department of Statistics, Oxford. For information about upcoming talks and events, please check our meetup page [meetup.com/Oxford-R-User-Group](https://www.meetup.com/Oxford-R-User-Group/) for latest information. Everyone is welcome! 
 
 
 ## Upcoming events
 
-* 2nd March 2020 -- TBC
+* [9th May 20222](https://www.meetup.com/Oxford-R-User-Group/events/285366027/)
+    * James Laird-Smith (https://jameslairdsmith.com/) -- Advanced data exploration with corrr
 
 ## Past events
 
+* [4th April 2022](https://www.meetup.com/Oxford-R-User-Group/events/284932498/)
+    * Daniel de Bortoli and Vasiliki Chatzi -- Music mood analysis: Predicting mood from Spotify audio features
+* [7th March 2022](https://www.meetup.com/Oxford-R-User-Group/events/284198232/)
+    * Andrew Collier (https://datawookie.dev/) -- {emayili} Advanced Email from R
 * [3rd February 2020](https://www.meetup.com/Oxford-R-User-Group/events/268293138/)
     * Milan Wiedemann (https://www.milanwiedemann.com) -- My journey from error messages to R Packages - Building tools to improve reproducibility and productivity in clinical psychology [[slides]](https://github.com/r-oxford/r-oxford.github.io/blob/master/slides/2020_02_my_R_journey.pdf)
 * [2nd December 2019](https://www.meetup.com/Oxford-R-User-Group/events/266780123/)
@@ -86,12 +91,12 @@ We are holding regular meetings on the first Monday of every month in the Dorfma
 ![](RConsortium_logo.png)
 </div>
 
-<div style="width:200px">
-![](mango-solutions.png)
-</div>
+<!-- <div style="width:200px"> -->
+<!-- ![](mango-solutions.png) -->
+<!-- </div> -->
 
 
-Oxford R user group is kindly sponsored by the [R consortium](https://www.r-consortium.org/) and [Mango solutions](https://www.mango-solutions.com/). 
+Oxford R user group is kindly sponsored by the [R consortium](https://www.r-consortium.org/). 
 
 We follow the R Consortium and the R Community [Code of Conduct](https://wiki.r-consortium.org/view/R_Consortium_and_the_R_Community_Code_of_Conduct)
 
